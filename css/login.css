@@ -1,0 +1,138 @@
+/*************** BUSCADOR POR CATEGORIAS ************** */
+#search-content {
+    margin-top: 2%;
+    margin-bottom: 2%;
+}
+.cat-content {
+    max-height: 100%;
+    float: left;
+}
+/*************** HEADER ************** */
+.header {
+    height: 100px;
+    background-color: white;
+    border-bottom: 4px solid #07107F;
+    z-index: 1; }
+
+.buscar {
+    margin-top:6%;
+    margin-bottom: 5%;}
+
+/*************** MENU ************** */
+.nav {
+    margin-top: 2%; }
+.nav > ul > li {
+    float: left; }
+.nav > ul > li a {
+    display: inline-block;
+    text-align: center;
+    line-height: 50px;
+    text-align: center;
+    background-color: white;
+    width: 100px;
+    text-decoration: none;
+    color: black; }
+.nav > ul > li > ul {
+    display: none; }
+.nav > ul > li > ul > li {
+    position: relative; }
+.nav > ul > li > ul > li > ul {
+    left: 100px;
+    top: 0;
+    display: none; }
+.nav ul {
+    list-style: none;
+    margin: 0;
+    padding: 0; }
+.buscar{
+    margin-top: 13%; 
+}
+.enlace{
+    margin-top: 13%;
+}
+.logo img {
+    width: 60%;
+    height: 80%; 
+    margin-bottom: 0%;
+    margin-left: 5%;}
+
+.log img {
+    margin-top: 45%;
+    width: 70%; }
+
+.carrito img {
+    margin-top: 45%;
+    width: 70%; }
+
+/*************** CUERPO ************** */
+.section{
+    background: #AAD7F7;
+}
+form{
+    margin-top: 5%;
+    margin-left: 35%;
+    margin-bottom: 5%;
+}
+.login a {
+    color: grey;
+    font-size: 1.5em;    
+    text-decoration: none; }
+.login a:hover {
+    color: #FF7878;
+    text-decoration: underline; }
+
+.signup {
+    color: grey; 
+    width: 30%;
+    margin-top: 5%;
+    margin-left: 32%;
+    margin-bottom: 5%;
+    text-align: center;
+}
+
+/* User y Pass */
+
+.botonLogout {
+    height: 30px;
+    color: #606468;
+    padding: 0 16px;
+    width: 198px; }
+
+#btn-send-login{
+
+    padding-left: 15%;
+}
+/*************** FOOTER ************** */
+.footer {
+    background-color: #333333;
+    width: 100%;
+    height: 125px; }
+.footer .RRSS, .footer .links {
+    margin-top: 15px;
+    display: flex;
+    flex-direction: row;
+    flex-wrap: nowrap;
+    justify-content: space-around;
+    align-items: center;
+    margin-bottom: 15px;
+    width: 100%; }
+
+/*************** ERROR 404 ************** */
+.error {
+    font-family: "Verdana";
+    font-size: 30px;
+    color: grey;
+    text-align: center;
+    background-color: #FEF0F0;
+    height: 100%;
+    width: 100%; }
+.error h1 {
+    margin-left: 5%;
+    text-align: left; }
+.error h2 {
+    margin-right: 5%;
+    text-align: right; }
+
+.volver {
+    margin-left: 93%; }
+

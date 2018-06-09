@@ -1,0 +1,33 @@
+{
+  "usuarios": [
+    {
+      "nombre": "Juan",
+      "password": "1234",
+      "id": "2"
+    },
+    {
+      "nombre": "Paloma",
+      "password": "12345678",
+      "id": "zwgrhUj"
+    }
+  ],
+  "favoritos": [
+    {
+      "url": "http://25.media.tumblr.com/tumblr_koy18o2tfc1qzg6w0o1_250.gif",
+      "idUsu": "1",
+      "id": 1
+    },
+    {
+      "url": "http://24.media.tumblr.com/tumblr_lsob4zwjjC1qzfgamo1_1280.jpg",
+      "idUsu": "2",
+      "id": 2
+    }
+  ],
+  "likes": [
+    {
+      "url": "http://24.media.tumblr.com/tumblr_m2p8g26UVj1rp5q0oo1_250.gif",
+      "idUsu": "1",
+      "id": 2
+    }
+  ]
+}

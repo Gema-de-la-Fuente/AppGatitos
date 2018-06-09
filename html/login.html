@@ -1,0 +1,122 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>Gatitos</title>
+        <meta charset="UTF-8">
+        <link rel="stylesheet" type="text/css" media="all" href="../css/normalize.css"/>
+        <link rel="stylesheet" type="text/css" media="all" href="../css/reset.css" />
+        <link rel="stylesheet" type="text/css" media="all" href="../css/text.css" />
+        <link rel="stylesheet" type="text/css" media="all" href="../css/960.css" />
+        <link rel="stylesheet" type="text/css" media="all" href="../css/login.css" />
+        
+    </head>
+
+    <body>
+        <div class="container_12">
+            <div class="grid_12">
+                <header class="header" >
+                    <div class="grid_2 alpha">
+                        <div class="logo"><a href="../index.html"><img alt="logo.png" src="../img/gato.png"></a></div>
+                    </div>
+
+                    <div class="grid_2">
+                       <div class="buscar">
+                            <select id="select-categorias"></select>
+                        </div>
+                        
+                    </div>
+
+                    <div class="grid_6">
+                       <nav class="nav">
+                            <ul>
+                                <li><a class="enlace" href="../index.html">INICIO</a></li>
+                                <li><a class="enlace" href="#">GATOS</a>
+                                    <ul>
+                                        <li><a href="#">ARTISTAS</a></li>
+                                        <li><a href="#">OBRAS</a></li>
+                                    </ul>
+                                </li>
+                                <li><a class="enlace" href="registro.html">REGISTRO</a></li>
+                            </ul>
+                        </nav>
+                    </div>
+
+                    <div class="grid_1 omega">
+                        <div class="log">
+                            <a href="#"><img alt="login.png" src="../img/login.png"></a>
+                        </div>
+                    </div>
+
+                    <div class="grid_1 omega">
+                        <div class="carrito">
+                            <a href="../error/error404.html">
+                                <img alt="cart.png" src="../img/carrito.png"></a>
+                        </div>
+                    </div>
+                </header>
+            </div>
+
+            <div class="clear"></div>
+            <!----------- CUERPO DE LA PAGINA ------------>
+            <div class="grid_12">
+                <section class="section">
+                    <div class="grid_12">
+                        <div class="login">
+                            
+                            <form action="../index.html" method="post" class="login">
+
+                                <div class="logoUsu">
+                                    <img alt="user.png" src="../img/user.png">
+                                    <input type="text" id="name-input" placeholder="Username" required class="usuario">
+                                </div>
+
+                                <div class="logoLock">
+                                    <img alt="padlock.png" src="../img/padlock.png">
+                                    <input type="password"  id="pass-input" placeholder="Password" required class="contrasenia">
+                                </div> 
+                                <div id="btn-send-login">Login</div>
+                                
+<!--                                <div id="logout" style="display: none;"><button class="botonLogout" onclick="logoutSesion()">Logout</button></div>-->
+                            </form>
+                            
+                            <div class="signup">
+                                <p>¿No formas parte de nuestra comunidad? <a href="registro.html">Regístrate rellenando el siguiente formulario.</a></p></div>
+                        </div>
+                    </div>
+
+                    <div class="clear"></div>
+
+
+                    <!----------- FOOTER ------------>
+                    <div class="grid_12 alpha">
+                        <footer class="footer">
+                            <div class="grid_6 prefix_3 suffix_3">
+                                <div class="links">
+                                    <div><a href="#">NeedArt! </a></div>
+                                    <div><a href="#"> Contacto </a></div>
+                                    <div><a href="#"> Aviso Legal </a></div>
+                                    <div><a href="#"> Privacidad </a></div>
+                                    <div><a href="#"> Condiciones </a></div>
+                                    <div><a href="#"> Derechos de Uso</a></div>
+                                </div>
+                                <div class="RRSS">
+                                    <div><a href="#"><img alt="if_pinterest.png" src="../img/if_pinterest_246004.png"></a></div>
+                                    <div><a href="#"><img alt="if_paypal.png" src="../img/if_paypal_456097.png"></a></div>
+                                    <div><a href="#"><img alt="if_Popular_Social_Media.png" src="../img/if_Popular_Social_Media-08_2329265.png"></a></div>
+                                    <div><a href="#"><img alt="f_twitter.png" src="../img/if_twitter_246011.png"></a></div>
+                                    <div><a href="#"><img alt="if_Facebook.png" src="../img/if_Facebook-2_174200.png"></a></div>
+                                    <div><a href="#"><img alt="if_map-marker.png" src="../img/if_map-marker_285659.png"></a></div>
+                                    
+                                </div>
+                            </div>
+                            <div class="clear"></div>
+                        </footer>
+                    </div>
+                </section>
+            </div>
+            <div class="clear"></div> 
+        </div>
+        <!----------- LIBRERIAS Y JS ------------>
+        <script src="../js/login.js"></script>
+    </body>
+</html>

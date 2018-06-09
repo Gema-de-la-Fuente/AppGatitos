@@ -1,0 +1,164 @@
+<!DOCTYPE>
+<html>
+    <head>
+        <meta charset="UTF-8"/>
+        <title>Gatitos</title>
+        <link rel="stylesheet" type="text/css" media="all" href="../css/normalize.css"/>
+        <link rel="stylesheet" type="text/css" media="all" href="../css/reset.css" />
+        <link rel="stylesheet" type="text/css" media="all" href="../css/text.css" />
+        <link rel="stylesheet" type="text/css" media="all" href="../css/960.css" />
+        <link rel="stylesheet" type="text/css" href="../css/index.css"/>
+        <link rel="stylesheet" type="text/css" href="../css/registro.css"/>
+    </head>
+    <body>
+        <div class="container_12" id="cHeader">
+            <div class="grid_12 omega">
+                <header class="header">
+                    <div class="grid_2 alpha">
+                        <div class="logo"><a href="../index.html"><img alt="logo.png" src="../img/gato.png"></a></div>
+                    </div>
+
+                    <div class="grid_2">
+                        <div class="buscar">
+                            <select id="select-categorias"></select>
+                        </div>
+                    </div>
+
+                    <div class="grid_6">
+                        <nav class="nav">
+                            <ul>
+                                <li><a class="enlace" href="../index.html">INICIO</a></li>
+                                <li><a class="enlace" href="#">GATOS</a>
+                                    <ul>
+                                        <li><a href="#">ARTISTAS</a></li>
+                                        <li><a href="#">OBRAS</a></li>
+                                    </ul>
+                                </li>
+                                <li><a class="enlace" href="#">REGISTRO</a></li>
+                            </ul>
+                        </nav>
+                    </div>
+
+                    <div class="grid_1 omega">
+                        <div class="log">
+                            <a href="login.html"><img alt="login.png" src="../img/login.png"></a>
+                        </div>
+                    </div>
+
+                    <div class="grid_1 omega">
+                        <div class="carrito">
+                            <a href="../error/error404.html">
+                                <img alt="carrito.png" src="../img/carrito.png"></a>
+                        </div>
+                    </div>
+                </header>
+            </div>
+        </div>	
+        <div class="clear"></div>
+
+        <!------------ CUERPO DE LA PAGINA ------------->
+        <div class="container_12">
+            <div class="grid_12">
+                <section class="section">
+
+                    <div class="grid_12">
+                        <div class="main">
+                            <div class="one">
+                                <div class="register">
+                                    <h3>Registro</h3>
+
+                                    <form id="formulario" class="formulario" method="post" action="login.html">
+
+                                        <div>
+                                            <label>Nombre (*)</label>
+                                            <input type="text" id="nombre"  placeholder="Nombre" maxlength="15" pattern="[A-Za-z]{2,15}" required/>
+
+                                            <div id="txtError"></div>
+                                        </div>
+                                        <div>
+                                            <label>Apellidos (*)</label>
+                                            <input type="text" id="apellidos" placeholder="Apellidos" maxlength="15" pattern="[A-Za-z]{2,15}" required/>
+                                        </div>
+                                        <div>
+                                            <label>Correo Electrónico (*)</label>
+                                            <input type="text" id="email" placeholder="example@ejemplo.com" pattern="^[a-zA-Z0-9.!#$%&'*+/=?^_`{|}~-]+@[a-zA-Z0-9-]+(?:[a-zA-Z0-9-]+)*(\.{1})([a-z]){2,3}$" required />
+                                        </div>
+                                        <div>
+                                            <label>Contraseña (*)</label>
+                                            <input type="password" id="password" placeholder="Contraseña" minlength="8" required/>
+
+                                        </div>
+                                        <div>
+                                            <label>Confirmar contraseña (*)</label>
+                                            <input type="password" id="passwordAgain" placeholder="Contraseña" required/>
+
+                                        </div>
+
+                                        <div>
+                                            <label>Fecha de Nacimiento</label>
+                                            <input type="date" id="inputFecha">
+                                        </div>
+
+                                        <div>
+                                            <label></label>
+                                            <input value="Regístrate" type="submit" id="registro" class="button">
+<!--                                            <input value="Regístrate" type="submit" id="registro" class="button" onclick='setCookie(nombre.value, sha256(password.value))'>-->
+                                        </div>
+                                    </form>
+                                    <div class="sep">
+                                        <span class="or">OR</span>
+                                    </div>
+                                    <div class="connect">
+                                        <div class="social-buttons facebook">
+                                            <a href="#">
+                                                <span>Facebook</span>
+                                            </a>
+                                        </div>
+                                        <div class="social-buttons twitter">
+                                            <a href="#">
+                                                <span>Twitter</span>
+                                            </a>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+
+                    </div>
+
+                    <div class="clear"></div>
+
+                    <!----------- FOOTER ------------>
+                    <div class="grid_12 alpha">
+
+                        <footer class="footer">
+                            <div class="grid_6 prefix_3 suffix_3">
+                                <div class="links">
+                                    <div><a href="#">Gatitos! </a></div>
+                                    <div><a href="#"> Contacto </a></div>
+                                    <div><a href="#"> Aviso Legal </a></div>
+                                    <div><a href="#"> Privacidad </a></div>
+                                    <div><a href="#"> Condiciones </a></div>
+                                    <div><a href="#"> Derechos de Uso</a></div>
+                                </div>
+                                <div class="RRSS">
+                                    <div><a href="#"><img alt="if_pinterest.png" src="../img/if_pinterest_246004.png"></a></div>
+                                    <div><a href="#"><img alt="if_paypal.png" src="../img/if_paypal_456097.png"></a></div>
+                                    <div><a href="#"><img alt="if_Popular_Social_Media.png" src="../img/if_Popular_Social_Media-08_2329265.png"></a></div>
+                                    <div><a href="#"><img alt="f_twitter.png" src="../img/if_twitter_246011.png"></a></div>
+                                    <div><a href="#"><img alt="if_Facebook.png" src="../img/if_Facebook-2_174200.png"></a></div>
+                                    <div><a href="#"><img alt="if_map-marker.png" src="../img/if_map-marker_285659.png"></a></div>
+                                </div>
+                            </div>
+                            <div class="clear"></div>
+                        </footer>
+
+                    </div>
+                    <div class="clear"></div>
+                </section>
+            </div>
+        </div>
+        <script type="application/javascript" src="../js/registro.js"></script>
+    </body>
+
+</html>
